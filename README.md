@@ -35,11 +35,14 @@ This function will create a user, along with a default wallet with the user call
 Returns the user id and the wallet id.
 
 **Errors**
+
 `{ error: :password_is_greater_than_12 }`
 When the password length is greater than 12.
 
+
 `{ error: :email_is_empty }`
 When the email length is zero.
+
 
 `{ error: :name_is_empty }`
 When the email length is zero.
@@ -78,8 +81,10 @@ Returns the wallets associated with the user.
 `new_name`: The new name of the wallet.<br>
 
 **Errors**
+
 `{ error: :authentication_information_is_incorrect }`
 When the user authentication information is incorrect.
+
 
 #### POST `wallet/create_wallet`
 `email`: The email of the user.<br>
@@ -87,6 +92,7 @@ When the user authentication information is incorrect.
 `name`: The name of the new wallet.<br>
 
 **Errors**
+
 `{ error: :authentication_information_is_incorrect }`
 When the user authentication information is incorrect.
 
