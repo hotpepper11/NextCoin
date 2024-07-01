@@ -1,0 +1,2 @@
+# NextCoin
+A coin API.
