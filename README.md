@@ -104,6 +104,7 @@ When the user authentication information is incorrect.
 `coin_amount`: The amount of coins to be take out of the wallet.<br>
 
 **Errors**
+
 `{ error: :not_enough_money }`
 When the user does not have enough money in the wallet.
 
