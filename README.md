@@ -9,7 +9,9 @@ The url endpoint at which requests can be made is `https://pct4k7-3000.csb.app`
 Please send any ideas, questions, errors, or bugs to Thomas Smith.
 
 ## Javascript Fetch Requests
-Currently, the NextCoin API lacks a formal JavaScript fetch request process. If you're interested in enabling JavaScript integration, consider contributing to the project's development.
+```js
+const resp = fetch(url, { method: method }, params);
+```
 
 ## Possible Future Features
 The following potential features are envisioned for future development, subject to community contributions and support:
