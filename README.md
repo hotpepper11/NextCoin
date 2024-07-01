@@ -6,7 +6,7 @@ Currently, this API offers methods for querying, updating, and managing data wit
 The url endpoint at which requests can be made is `https://pct4k7-3000.csb.app`
 
 ## Support
-Please send any ideas, questions, errors, or bugs to hotpepper156@gmail.com
+Please send any ideas, questions, errors, or bugs to Thomas Smith.
 
 ## Javascript Fetch Requests
 Currently, the NextCoin API lacks a formal JavaScript fetch request process. If you're interested in enabling JavaScript integration, consider contributing to the project's development.
